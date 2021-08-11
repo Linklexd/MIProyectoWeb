@@ -1,3 +1,5 @@
+@media screen and (min-width: 768px){
+
 body {
     font-size: 28px;
     color: white;
@@ -53,4 +55,105 @@ h1 {
 }
 #Imgyamcha {
     width: 300px;
+}
+}
+
+  
+  
+  
+  ul li a.active {background-color: #04AA6D;}
+  
+  ul li.right {float: right;}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+  }
+  
+  ul li {float: left;}
+  
+  ul li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+
+  }
+  
+  @media screen and (max-width:500px) {
+    ul li.right, 
+    ul li {float: none;}
+    #home{
+        padding: 0px;
+        width: 100% auto;
+        display: inline-block;
+        font-size: 40px;
+        background-color: white;
+        color: Black;
+    }
+    #Logo {
+        width: 100px;
+    }
+    ul li a:hover:not(.active) {background-color: #111;}
+    ul {
+        background-color: rgb(59, 59, 59);
+    }
+    ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    #Imgyamcha {
+        width: 250px;
+    }
+}
+@media screen and (min-width:505px) and (max-width: 700px) {
+    #home {
+        background-color: tomato;
+        width: 90% auto;
+        display: inline-block;
+        font-size: 25px;
+        color: aqua;
+        font-family: verdana;
+    }
+    #Logo {
+        width: 120px;
+
+    }
+    h1{
+        display: inline-block;
+    }
+    #Imgyamcha {
+        width: 260px;
+    }
+    .Imagen {
+        width: 120px;
+        height: 120px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(93, 174, 199);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(43, 201, 230);
+    }
+    .active {
+        background-color: #b066e2;
+    }
 }
