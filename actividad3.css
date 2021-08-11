@@ -1,0 +1,53 @@
+body {
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    width: 1200px;
+    margin: 50px auto;
+    font-family: verdana;
+}
+.Imagen {
+    width: 150px;
+    height: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(241, 239, 231);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: #4CAF50;
+}
+#Right { float: right;
+}
+#Logo {
+    width: 60px;
+    height: 65px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+#turles {
+    width: 400px;
+}
