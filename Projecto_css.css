@@ -11,7 +11,7 @@ font-family: 'Ubuntu', sans-serif;
 h1{
     text-align: center;
     font-size: 80px;
-    display: inline-block;
+    margin-left: auto;
 }
 #Logo{
     width: 100px;
@@ -190,7 +190,7 @@ ul li a {
         background: None;
     }
     #Zelda a {
-        font-size: 25px;
+        font-size: 35px;
     }
     #Zelda:hover{
         background: none;
@@ -199,7 +199,7 @@ ul li a {
         background: none;
     }
     #Metroid a {
-        font-size: 30PX;
+        font-size: 50PX;
     }
     #Metroid img {
         width: 300px;
