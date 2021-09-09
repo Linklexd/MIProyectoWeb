@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div {text-align: center; font-family: impact; border: 1px solid darkblue; font-size: 40px;}
+        p {border: darkblue 1px solid;}
+    </style>
+    <div id = cont>
+        <h3>Calculadora</h3>
+        <p>Suma(+), Resta(-), Multiplicacion(*), Divición(/)</p>
+    </div>
+    <script>
+        function suma(num,num2){
+           let res= num + num2;
+            return res;
+        }
+        function resta(num,num2){
+           let res= num - num2;
+            return res;
+        }
+        function Multip(num,num2){
+           let res= num * num2;
+            return res;
+        }
+        function div(num,num2){
+           let res= num / num2;
+           return res;
+        }
+        var num = prompt ("Valor1");
+        num=parseInt(num);
+
+        var num2 = prompt ("Valor2");
+        num2=parseInt(num2);
+        
+        var op = prompt("operacion a realizar");
+        switch(op) {
+            case"+":
+            var r = suma(num,num2);
+            r="suma: " + r;
+            break;
+            
+            case"-":
+            var r = resta(num,num2);
+            r="Resta: " + r;
+            break;
+
+            case "*":
+            var r = Multip(num,num2);
+            r= "Multiplicacion: " + r;
+            break;
+            
+            case "/":
+                var r =div(num,num2);
+                r="Div: "+ r;
+                break;
+                default:
+                    var r = "Operación no considerada";
+                    break;
+        }
+        var cont = document.getElementById("cont");
+        var nele = createElement("p");
+        nele.innerHTML = r;
+        cont = appendChild(nele);
+
+
+    </script>
+</body>
+</html>
