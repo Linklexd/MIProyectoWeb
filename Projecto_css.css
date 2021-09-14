@@ -80,13 +80,13 @@ ul li a {
     text-align: center;
     font-size: 40px;
 }
-}
+
 #Zelda{
     float: left;
     list-style-type: none;
     font-size: 32px;
     background: rgb(182, 228, 216);
-    margin-left: auto;
+    margin-left: -60px;
     border-radius: 50px;
 }
 #Zelda img {
@@ -98,6 +98,7 @@ ul li a {
     color: white;
 }
 #Zelda a {
+    font-size: 27px;
     color: whitesmoke;
     margin-right: 41px;
     border-radius: 20px;
@@ -113,14 +114,15 @@ ul li a {
     background: rgb(243, 78, 78);
     margin-left: auto;
     border-radius: 50px;
+    margin-left: 40px;
 }
 #Metroid img {
-    width: 380px;
+    width: 340px;
     margin-top: 50px;
     margin-right: 44px;
 }
 #Metroid a{
-    color: whitesmoke;
+    color: rgb(204, 196, 196);
     margin-top: 105px;
     border-radius: 20px;
     background: rgb(241, 48, 48)
@@ -133,6 +135,36 @@ ul li a {
 }
 #N {
     font-size: 30px;
+}
+#BPrecios{
+    float: left;
+    list-style-type: none;
+    font-size: 32px;
+    background: rgb(0, 0, 0);
+    margin-left: 490px;
+    border-radius: 50px;
+    margin-top: -438px;
+}
+#BPrecios img {
+    width: 300px;
+    margin-left: 6.5px;
+    margin-top: 45px;
+}
+#BPrecios a {
+    list-style-type: none;
+    font-size: 25px;
+    padding-right: 29px;
+    margin-left: -12px;
+    color: white;
+    background: rgb(72, 73, 61);
+    border-radius: 20px;
+}
+#BPrecios a:hover{
+    background: rgb(118, 121, 94);
+}
+#BPrecios:hover {
+    background: rgb(84, 58, 102);
+}
 }
 @media screen and (max-width:750px) {
     ul{
@@ -184,13 +216,16 @@ ul li a {
     }
     #Zelda img {
         width: 200PX;
-        margin-left: 65PX;
+        margin-left: 55PX;
+
     }
     #Zelda {
         background: None;
     }
     #Zelda a {
         font-size: 35px;
+        list-style-type: none;
+        color: white;
     }
     #Zelda:hover{
         background: none;
@@ -200,11 +235,20 @@ ul li a {
     }
     #Metroid a {
         font-size: 50PX;
+        list-style-type: none;
+        color: white;
     }
     #Metroid img {
         width: 300px;
     }
     #Metroid:hover{
         background: none;
+    }
+    #BPrecios img{
+        width: 300px;
+    }
+    #BPrecios a{
+        font-size: 45PX;
+        color: white;
     }
 }
